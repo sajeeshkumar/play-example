@@ -11,3 +11,28 @@ Controllers
 UserController
 
 A sample controller that performs REST API on a User entity object.
+
+To run the project 
+
+a) Install activator from playframework.com
+b) Run activator clean compile
+c) Run activator run
+
+Example APIs
+
+http://localhost:9000/user GET to get all users
+		    /user/{id} GET to get a user
+                    /user POST to create a user
+                   /user PUT to update a user
+                   /user/{id} DELETE to delete a user
+
+Requests can be tested in Postman
+
+Example create JSON
+
+{
+  "firstName" : "test",
+  "lastName" : "test",
+  "age" : 10
+}
+ 
